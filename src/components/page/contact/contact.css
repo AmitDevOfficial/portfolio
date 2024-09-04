@@ -1,0 +1,103 @@
+#contact {
+    display: flex;
+}
+
+.conOne {
+    width: 50%;
+    transform: translateY(40px);
+}
+
+.conOne h1 {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    color: var(--heading);
+}
+
+.conTwo {
+    width: 50%;
+}
+
+.conTwo img {
+    width: 60%;
+    float: right;
+}
+
+#conUs {
+    margin-top: 20px;
+}
+
+.fieldTwo {
+    margin-left: 50px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2.5px dashed var(--heading);
+    ;
+    background-color: transparent;
+    margin-top: 20px;
+    outline: none;
+}
+
+input[type='text'] {
+    padding-bottom: 10px;
+    color: var(--secondary);
+}
+
+textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2.5px dashed var(--heading);
+    ;
+    background-color: transparent;
+    margin-top: 20px;
+    width: 63%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 13px;
+    color: var(--secondary);
+    outline: none;
+}
+
+#conUs button {
+    border: none;
+    background-color: var(--heading);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.conSec {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 15px;
+}
+.conSec a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.conSec {
+    margin-top: 40px;
+}
+
+.conIcon {
+    color: var(--heading);
+    margin-left: 20px;
+}
+
+.iconSection {
+    margin-top: 20px;
+}

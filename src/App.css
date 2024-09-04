@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 10px 50px 10px 50px;
+}
+
+body {
+    overflow-y: auto; 
+    max-height: 100%; 
+  }
+  
+  body::-webkit-scrollbar {
+    width: 5px;
+    height: 20%;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: var(--heading);
+    border-radius: 50px;
+  }

@@ -1,0 +1,128 @@
+#skill h1{
+    text-align: center;
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 40px;
+    color: var(--heading);
+}
+.skillhr{
+    width: 95%;
+    color: var(--heading);
+}
+#skill p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+}
+.skillContainer{
+        padding: 10px 200px 10px 200px;
+}
+#skill p{
+    text-align: center;
+}
+
+.tech h3{
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--heading);
+}
+.tech span{
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--heading); 
+}
+.techskill .progress{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.techskill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.techskill hr{
+    display: inline-block;
+    width: 30%;
+    border-top: dotted;
+    color: var(--heading);
+    border-bottom: none;
+}
+.lineRotate {
+    width: 12% !important;
+    transform: rotate(90deg);
+    float: right;
+    margin-right: 96px;
+    border-top: dotted;
+    color: var(--heading);
+    margin-top: 61px;
+    border-bottom: none;
+}
+#tech2{
+    margin-top: 101px;
+}
+.tech img{
+    width: 84px;   
+    transform: translateY(31px);
+}
+.html{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 50px;
+    border-radius: 12px;
+}
+.css{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 60px;
+    border-radius: 12px;
+}
+.java{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 16px;
+    border-radius: 12px;
+}
+.boot{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 16px;
+    border-radius: 12px;
+}
+.react{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 30px;
+    border-radius: 12px;
+}
+.node{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 34px;
+    border-radius: 12px;
+}
+.express{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 17px;
+    border-radius: 12px;
+}
+.mongo{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 22px;
+    border-radius: 12px;
+}
+.mui{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 13px;
+    border-radius: 12px;
+}

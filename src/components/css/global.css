@@ -1,0 +1,18 @@
+:root{
+    --light: white;
+    --secondary: black;
+    --hover: black;
+    --over: #ff8263;
+    --reverse: black;
+    --heading: #d6421c;
+  }
+
+  [data-theme="dark"]{
+    --dark: black;
+    --secondary: white;
+    --hover: white;
+  }
+
+body{
+    background-color: var(--dark);
+}
