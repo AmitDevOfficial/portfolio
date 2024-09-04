@@ -29,7 +29,7 @@ export default function Header() {
     <header>
       <div className="main">
         <div className="one">
-          <li><a href="/"> <img src={logo} alt="" /> </a></li>
+          <li><Link to="/"> <img src={logo} alt="" /> </Link></li>
         </div>
         <div className="two">
 

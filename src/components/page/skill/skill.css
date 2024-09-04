@@ -22,7 +22,9 @@
 #skill p{
     text-align: center;
 }
-
+.tech{
+    padding-top: 20px;
+}
 .tech h3{
     font-family: "Signika Negative", sans-serif;
     font-optical-sizing: auto;
