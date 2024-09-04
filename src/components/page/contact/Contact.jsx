@@ -31,11 +31,15 @@ export default function Contact() {
             <b style={{color:'var(--heading)',fontSize: '16px'}}>Email :</b><span> <a href="https://mail.google.com/mail/u/0/#inbox" target='_blank'>vishamit8827@gmail.com</a></span>
             <br />
             <br />
+            <br />
             <b style={{color:'var(--heading)',fontSize: '16px'}}>Social Media : </b>
             <span className='iconSection'>
             <FacebookRoundedIcon className='conIcon'/><InstagramIcon className='conIcon'/><MarkEmailReadOutlinedIcon className='conIcon'/><WhatsAppIcon className='conIcon'/>
             </span>
-            
+            <br />
+            <br />
+            <br/>
+            <b style={{color:'var(--heading)',fontSize: '16px', paddingTop: '50px'}}>Contact Number : </b><span> <a href="https://mail.google.com/mail/u/0/#inbox" target='_blank'>+91 7974743671</a></span>
           </div>
         </div>
         <div className="conTwo">
