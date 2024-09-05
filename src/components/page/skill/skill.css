@@ -58,17 +58,17 @@
     border-bottom: none;
 }
 .lineRotate {
-    width: 12% !important;
+    width: 7% !important;
     transform: rotate(90deg);
     float: right;
-    margin-right: 96px;
+    margin-right: 127px;
     border-top: dotted;
     color: var(--heading);
-    margin-top: 61px;
+    margin-top: 32px;
     border-bottom: none;
 }
 #tech2{
-    margin-top: 101px;
+    margin-top: 63px;
 }
 .tech img{
     width: 84px;   
@@ -80,11 +80,21 @@
     padding: 10px 50px;
     border-radius: 12px;
 }
+.html:hover{
+    background-color: #f16528ed;
+    color: white;
+    border:2px solid #f16528ed;
+}
 .css{
     padding: 30px;
     border: 2px solid var(--heading);
     padding: 10px 60px;
     border-radius: 12px;
+}
+.css:hover{
+    background-color: #3799d6;
+    color: white;
+    border:2px solid #3799d6;
 }
 .java{
     padding: 30px;
@@ -92,11 +102,21 @@
     padding: 10px 16px;
     border-radius: 12px;
 }
+.java:hover{
+    background-color: #fdcd00;
+    color: white;
+    border:2px solid #fdcd00;
+}
 .boot{
     padding: 30px;
     border: 2px solid var(--heading);
     padding: 10px 16px;
     border-radius: 12px;
+}
+.boot:hover{
+    background-color: #7310f6;
+    color: white;
+    border:2px solid #7310f6;
 }
 .react{
     padding: 30px;
@@ -104,11 +124,21 @@
     padding: 10px 30px;
     border-radius: 12px;
 }
+.react:hover{
+    background-color: #3399fe;
+    color: white;
+    border:2px solid #3399fe;
+}
 .node{
     padding: 30px;
     border: 2px solid var(--heading);
     padding: 10px 34px;
     border-radius: 12px;
+}
+.node:hover{
+    background-color: #82cd28;
+    color: white;
+    border:2px solid #82cd28;
 }
 .express{
     padding: 30px;
@@ -116,15 +146,53 @@
     padding: 10px 17px;
     border-radius: 12px;
 }
+.express:hover{
+    background-color: #f1c40f;
+    color: white;
+    border:2px solid #f1c40f;
+}
 .mongo{
     padding: 30px;
     border: 2px solid var(--heading);
     padding: 10px 22px;
     border-radius: 12px;
 }
+.mongo:hover{
+    background-color: #88d645;
+    color: white;
+    border:2px solid #88d645;
+}
 .mui{
     padding: 30px;
     border: 2px solid var(--heading);
     padding: 10px 13px;
     border-radius: 12px;
+}
+.mui:hover{
+    background-color: #0080ff;
+    color: white;
+    border:2px solid #0080ff;
+}
+.php{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 62px;
+    border-radius: 12px;
+}
+.php:hover{
+    background-color: #4f5c93;
+    color: white;
+    border:2px solid #4f5c93;
+}
+
+.wdp{
+    padding: 30px;
+    border: 2px solid var(--heading);
+    padding: 10px 15px;
+    border-radius: 12px;
+}
+.wdp:hover{
+    background-color: #3858e9;
+    color: white;
+    border:2px solid #3858e9;
 }

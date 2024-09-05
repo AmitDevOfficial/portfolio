@@ -10,6 +10,8 @@ import node from '../../media/node.png';
 import express from '../../media/express.png';
 import mongo from '../../media/mongo.png';
 import mui from '../../media/mui.png';
+import php from '../../media/php.png';
+import wdp from '../../media/wdp.png';
 import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 
 
@@ -90,6 +92,22 @@ export default function Skill() {
             <span className='mui'>MATERIAL UI</span>
             <hr />
             <img src={mui} alt="" />
+            <hr />
+            <span className='progress'><AppRegistrationIcon /></span>
+          </div>
+          <hr className='lineRotate' />
+          <div id="tech2" className='techskill'>
+            <span className='php'>PHP</span>
+            <hr />
+            <img src={php} alt="" />
+            <hr />
+            <span className='progress'><AppRegistrationIcon /></span>
+          </div>
+          <hr className='lineRotate' />
+          <div id="tech2" className='techskill'>
+            <span className='wdp'>WORDPRESS</span>
+            <hr />
+            <img src={wdp} alt="" />
             <hr />
             <span className='progress'><AppRegistrationIcon /></span>
           </div>
