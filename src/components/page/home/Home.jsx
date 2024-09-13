@@ -20,7 +20,7 @@ export default function Home() {
                         repeat={Infinity}
                     />
                     <p>
-                        Hey I'am Amit Vishwakarma. And I have 1 & half year experience as a WordPress and PHP Developer. I have created more than many projects in real-world and serve to the client. I work so many technologies like REACT JS, NODE JS, FULL Stack Developer
+                        Hey I'am Amit Vishwakarma. And I have 1 & half year experience as a WordPress and PHP Developer. I have created more than many projects in real-world and serve to the client. But now i am switching as a MERN Stack Developer. And I have my own hands own experience in REACT JS, NODE JS, FULL Stack Developer
                     </p>
                 </div>
                 <div className="h2">
