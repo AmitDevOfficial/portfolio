@@ -10,6 +10,12 @@
     width: 95%;
     color: var(--heading);
 }
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+}
 #skill p{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -17,7 +23,7 @@
     line-height: 25px;
 }
 .skillContainer{
-        padding: 10px 200px 10px 200px;
+        padding: 10px 100px 10px 100px;
 }
 #skill p{
     text-align: center;
@@ -52,7 +58,7 @@
 }
 .techskill hr{
     display: inline-block;
-    width: 30%;
+    width: 37%;
     border-top: dotted;
     color: var(--heading);
     border-bottom: none;
@@ -61,10 +67,9 @@
     width: 7% !important;
     transform: rotate(90deg);
     float: right;
-    margin-right: 127px;
+    margin: 38px 16px 2px 9px;
     border-top: dotted;
     color: var(--heading);
-    margin-top: 32px;
     border-bottom: none;
 }
 #tech2{
@@ -195,4 +200,25 @@
     background-color: #3858e9;
     color: white;
     border:2px solid #3858e9;
+}
+
+.softSkill{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.mainSkill{
+    display: flex;
+}
+.skillOne{
+    width: 50%;
+}
+.skillTwo{
+    width: 50%;
+}
+
+.softSkill img{
+    width: 80%;
+    float: right;
+    margin-top: -66px;
 }

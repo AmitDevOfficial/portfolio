@@ -12,6 +12,7 @@ import mongo from '../../media/mongo.png';
 import mui from '../../media/mui.png';
 import php from '../../media/php.png';
 import wdp from '../../media/wdp.png';
+import skills from '../../media/skills.png';
 import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
 
 
@@ -24,93 +25,107 @@ export default function Skill() {
       </div>
       <div className='tech skillContainer'>
         <h3>TECHNICAL SKILLS</h3>
-          <div className='techskill'>
-            <span className='html'>HTML</span>
-            <hr />
-            <img src={html} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
+        <div className='techskill'>
+          <span className='html'>HTML</span>
+          <hr />
+          <img src={html} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='css'>CSS</span>
+          <hr />
+          <img src={css} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='java'>JAVASCRIPT</span>
+          <hr />
+          <img src={js} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='boot'>BOOTSTRAP</span>
+          <hr />
+          <img src={boot} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='react'>REACT JS</span>
+          <hr />
+          <img src={react} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='node'>NODE JS</span>
+          <hr />
+          <img src={node} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='express'>EXPRESS JS</span>
+          <hr />
+          <img src={express} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='mongo'>MONGODB</span>
+          <hr />
+          <img src={mongo} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='mui'>MATERIAL UI</span>
+          <hr />
+          <img src={mui} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='php'>PHP</span>
+          <hr />
+          <img src={php} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+        <hr className='lineRotate' />
+        <div id="tech2" className='techskill'>
+          <span className='wdp'>WORDPRESS</span>
+          <hr />
+          <img src={wdp} alt="" />
+          <hr />
+          <span className='progress'><AppRegistrationIcon /></span>
+        </div>
+      </div>
+      <div className='tech skillContainer softSkill'>
+        <h3>SOFT SKILLS</h3>
+        <div className='mainSkill'>
+          <div className='skillOne'>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+              but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+            </p>
           </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='css'>CSS</span>
-            <hr />
-            <img src={css} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
+          <div className='skillTwo'>
+            <img src={skills} alt="" />
           </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='java'>JAVASCRIPT</span>
-            <hr />
-            <img src={js} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='boot'>BOOTSTRAP</span>
-            <hr />
-            <img src={boot} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='react'>REACT JS</span>
-            <hr />
-            <img src={react} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='node'>NODE JS</span>
-            <hr />
-            <img src={node} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='express'>EXPRESS JS</span>
-            <hr />
-            <img src={express} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='mongo'>MONGODB</span>
-            <hr />
-            <img src={mongo} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon/></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='mui'>MATERIAL UI</span>
-            <hr />
-            <img src={mui} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon /></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='php'>PHP</span>
-            <hr />
-            <img src={php} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon /></span>
-          </div>
-          <hr className='lineRotate' />
-          <div id="tech2" className='techskill'>
-            <span className='wdp'>WORDPRESS</span>
-            <hr />
-            <img src={wdp} alt="" />
-            <hr />
-            <span className='progress'><AppRegistrationIcon /></span>
-          </div>
+        </div>
       </div>
       <Footer />
     </>

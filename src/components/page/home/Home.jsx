@@ -20,7 +20,7 @@ export default function Home() {
                         repeat={Infinity}
                     />
                     <p>
-                        Websites have come a long way from what they used to be a decade ago. We started with plain HTML and CSS websites. Then came JavaScript and revolutionized the way the web works. From that point onward, web technologies
+                        Hey I'am Amit Vishwakarma. And I have 1 & half year experience as a WordPress and PHP Developer. I have created more than many projects in real-world and serve to the client. I work so many technologies like REACT JS, NODE JS, FULL Stack Developer
                     </p>
                 </div>
                 <div className="h2">
