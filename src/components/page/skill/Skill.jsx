@@ -117,10 +117,18 @@ export default function Skill() {
         <h3>SOFT SKILLS</h3>
         <div className='mainSkill'>
           <div className='skillOne'>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-              but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-            </p>
+            <h4>Teamwork and Collaboration</h4>
+            <ul>
+              <li>Ability to work well in teams</li>
+              <li>Collaborative problem-solving</li>
+              <li>Adaptability in group settings</li>
+            </ul>
+            <h4>Problem-Solving</h4>
+            <ul>
+              <li>Analytical thinking</li>
+              <li>Creativity in finding solutions</li>
+              <li>Critical thinking</li>
+            </ul>
           </div>
           <div className='skillTwo'>
             <img src={skills} alt="" />

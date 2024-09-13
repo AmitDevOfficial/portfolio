@@ -203,7 +203,7 @@ p{
 }
 
 .softSkill{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 30px;
 }
 
@@ -220,5 +220,29 @@ p{
 .softSkill img{
     width: 80%;
     float: right;
-    margin-top: -66px;
+    margin-top: -97px;
+}
+
+.skillOne ul{
+    display: block;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.skillOne ul li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    list-style-type: disc;
+}
+.mainSkill .skillOne h4{
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 23px;
+    color: var(--heading);
+}
+.mainSkill{
+    margin-top: 20px;
 }
