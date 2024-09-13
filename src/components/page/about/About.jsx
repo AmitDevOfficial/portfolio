@@ -19,6 +19,50 @@ export default function About() {
 
        </div>
       </div>
+
+      <div className='edu container'>
+        <h3>Educational Journey</h3>
+        <div className="eduMain">
+        <div className="eduOne">
+          <div className="eduInfo">
+          <p><b>10th Higher Secondary</b></p>
+          <ul>
+            <li>School for Excellence Dewas (Madhya Pradesh)</li>
+            <li><b>(2011 - 2012)</b></li>
+          </ul>
+          </div>
+          <div className="eduInfo">
+          <p><b>12th Higher Secondary</b></p>
+          <ul>
+            <li>SVM (Madhya Pradesh)</li>
+            <li><b>(2014 - 2015)</b></li>
+          </ul>
+          </div>
+          
+          <div className="eduInfo">
+          <p><b>Presitge Institute of Mangament Dewas (Madhya Pradesh)</b></p>
+          <ul>
+            <li>Bachelor of Computer Application (BCA)</li>
+            <li><b>(2019 - 2022)</b></li>
+          </ul>
+          </div>
+
+          <div className="eduInfo">
+          <p><b>Sage University Indore (Madhya Pradesh)</b></p>
+          <ul>
+            <li>Master's of Computer Application (MCA)</li>
+            <li><b>(2022 - 2024)</b></li>
+          </ul>
+          </div>
+          
+        </div>
+        <div className="eduTwo">
+
+        </div>
+        </div>
+      </div>
+
+      <h1><center>work in progress</center></h1>
       <Footer/>
     </>
 
