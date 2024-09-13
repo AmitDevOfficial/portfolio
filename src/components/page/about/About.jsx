@@ -40,17 +40,17 @@ export default function About() {
           </div>
           
           <div className="eduInfo">
-          <p><b>Presitge Institute of Mangament Dewas (Madhya Pradesh)</b></p>
+          <p><b>Bachelor of Computer Application (BCA)</b></p>
           <ul>
-            <li>Bachelor of Computer Application (BCA)</li>
+            <li>Presitge Institute of Mangament Dewas (Madhya Pradesh)</li>
             <li><b>(2019 - 2022)</b></li>
           </ul>
           </div>
 
           <div className="eduInfo">
-          <p><b>Sage University Indore (Madhya Pradesh)</b></p>
+          <p><b>Master's of Computer Application (MCA)</b></p>
           <ul>
-            <li>Master's of Computer Application (MCA)</li>
+            <li>Sage University Indore (Madhya Pradesh) </li>
             <li><b>(2022 - 2024)</b></li>
           </ul>
           </div>
