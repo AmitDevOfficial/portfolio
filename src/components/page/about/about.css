@@ -36,8 +36,39 @@ ul li{
     font-weight: 400;
     font-style: normal;
     line-height: 25px;
+    float: right;
 }
 
 .eduInfo{
-    margin-top: 50px;
+    display: flex;
+}
+.eduInfoBuild{
+    justify-content: flex-end;
+}
+.eduIcon{
+    border: 2px solid var(--heading);
+    padding: 5px;
+    border-radius: 20px;
+}
+.profjour{
+    display: flex;
+    margin-top:17px;
+}
+.proJur hr{
+    transform: rotate(90deg);
+    width: 71px;
+    margin-top: 33px;
+    margin-left: -18px;
+    border-top: 3px var(--heading) dotted;
+    border-bottom: none;
+}
+.profjour .eduInfoSec{
+    width: 60%;
+    transform: translateX(400px);
+}
+.profjourtwo{
+    margin-left: 20px;
+}
+.prohead{
+    margin-bottom: 50px;
 }
