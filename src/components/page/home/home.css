@@ -193,4 +193,50 @@ h1,h2,h3{
         width: 250%;
         margin-top: 54px;
     }
+
+    /* -----Section2----- */
+    .secTwo {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 2rem;
+        margin-top: 20px;
+        width: 171%;
+    }
+    .secTwo2 h2 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .secTwo1 {
+        width: 40%;
+        padding-top: 82px;
+    }
+    .secTwo1 {
+        width: 84%;
+        padding-top: 82px;
+    }
+
+    .satisOne {
+        height: 100%;
+        width: 100%;
+        transform: translateY(5%);
+    }
+    .satisOne h1 {
+        text-align: center;
+    }
+    .satisOne p {
+        padding-bottom: 35px;
+    }
+   
+    .satis {
+        display: flex;
+        padding-top: 6rem;
+        flex-direction: column-reverse;
+    }
+    .satisTwo {
+        width: 95%;
+    }
+    .satisTwo img {
+        width: 95% !important;
+        /* float: right; */
+    }
 }
