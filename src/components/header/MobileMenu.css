@@ -1,0 +1,62 @@
+/* Show desktop menu on larger screens */
+.desktop-menu {
+    display: block;
+}
+
+/* Hide mobile menu by default */
+.mobile-menu {
+    display: none;
+}
+
+/* Show mobile menu and hide desktop menu on smaller screens */
+@media (max-width: 575px) {
+    #mobileMenu {
+        display: flex;
+        width: 87%;
+    }
+
+    /* #mobileMenu {
+        position: sticky;
+        top: 0;
+        background: orangered;
+    } */
+    #mobileMenu {
+        position: sticky;
+        top: 0;
+        background: orangered !important;
+        padding: 20px; /* Adds padding for height */
+        height: auto; /* Ensures it adapts to the content's height */
+    }
+    
+    #mobileMenu .mobOne img {
+        width: 118%;
+    }
+
+    #mobileMenu .mobOne {
+        width: 60%;
+    }
+
+    #mobileMenu .mobTwo {
+        width: 12%;
+        margin-left: 55px;
+        margin-top: 23px;
+    }
+
+    button.menu-toggle {
+        border: none;
+        background-color: transparent;
+    }
+
+    .desktop-menu {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+        padding: 12px 1px 11px 11px;
+    }
+
+    .mobile-menu ul {
+        list-style-type: none;
+    }
+}

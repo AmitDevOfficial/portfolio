@@ -113,28 +113,22 @@ export default function Skill() {
           <span className='progress'><AppRegistrationIcon /></span>
         </div>
       </div>
-      <div className='tech skillContainer softSkill'>
+      {/* <div className='tech skillContainer softSkill'>
         <h3>SOFT SKILLS</h3>
         <div className='mainSkill'>
-          <div className='skillOne'>
+          <div className='skillOnek'>
             <h4>Teamwork and Collaboration</h4>
             <ul>
               <li>Ability to work well in teams</li>
               <li>Collaborative problem-solving</li>
               <li>Adaptability in group settings</li>
             </ul>
-            <h4>Problem-Solving</h4>
-            <ul>
-              <li>Analytical thinking</li>
-              <li>Creativity in finding solutions</li>
-              <li>Critical thinking</li>
-            </ul>
           </div>
           <div className='skillTwo'>
             <img src={skills} alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
       <Footer />
     </>
 

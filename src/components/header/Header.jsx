@@ -26,7 +26,7 @@ export default function Header() {
 
   }
   return (
-    <header>
+    <header className='desktop-menu'>
       <div className="main">
         <div className="one">
           <li><Link to="/"> <img src={logo} alt="" /> </Link></li>

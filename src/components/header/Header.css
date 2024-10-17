@@ -19,13 +19,13 @@ header {
 .one  li{
     list-style: none;
 }
-ul {
+header ul {
     display: flex;
     justify-content: right;
     margin-left: 50px;
 }
 
-ul li a {
+header ul li a {
     color: var(--hover);
     font-weight: 700;   
     text-decoration: none;
@@ -33,11 +33,11 @@ ul li a {
     font-weight: 400;
     font-style: normal;
 }
-ul li a:hover{
+header ul li a:hover{
     color: var(--over);
     transition: 0.3s ease;
 }
-ul li {
+header ul li {
     list-style: none;
     margin-left: 50px;
 }
@@ -50,6 +50,7 @@ div .two {
     width: 75%;
     padding-top: 10px;
 }
+
 /*----Footer----*/
 
 footer{

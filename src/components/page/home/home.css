@@ -166,3 +166,30 @@ h1,h2,h3{
     font-size: 40px;
     color: var(--heading);
 }
+
+@media (max-width: 575px) {
+    .container {
+        padding: 10px 10px 10px 10px;
+    }
+    .hero{
+        display: block;
+    }
+    .hero .h1 {
+        width: 90%;
+        transform: translateY(20%);
+    }
+
+    span.index-module_type__E-SaG {
+        font-size: 34px !important;
+    font-weight: 600;
+    margin: 0 !important;
+    color: rgb(214, 66, 28);
+    }
+
+    .hero .h1 p {
+        width: 113%;
+    }
+    .hero img {
+        width: 250%;
+    }
+}
