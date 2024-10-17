@@ -172,7 +172,7 @@ h1,h2,h3{
         padding: 10px 10px 10px 10px;
     }
     .hero{
-        display: block;
+        flex-direction: column-reverse;
     }
     .hero .h1 {
         width: 90%;
@@ -191,5 +191,6 @@ h1,h2,h3{
     }
     .hero img {
         width: 250%;
+        margin-top: 54px;
     }
 }
