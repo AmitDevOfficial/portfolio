@@ -12,7 +12,7 @@ export default function Home() {
         <>
             <div className='hero container'>
                 <div className="h1">
-                    <h1>Hey..' <span>   I, am</span> </h1>
+                    <h1 id='hey'>Hey..' <span>   I, am</span> </h1>
                     <TypeAnimation
                         sequence={['Web Developer', 1000, 'Web Designer', 1000, 'Full Stack Developer', 1000]}
                         style={{ fontSize: '3em', fontWeight: '600', margin: '50px', color: '#d6421c' }}
