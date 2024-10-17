@@ -1,48 +1,41 @@
-/* Show desktop menu on larger screens */
 .desktop-menu {
     display: block;
 }
 
-/* Hide mobile menu by default */
 .mobile-menu {
     display: none;
 }
 
-/* Show mobile menu and hide desktop menu on smaller screens */
 @media (max-width: 575px) {
     #mobileMenu {
         display: flex;
         width: 90%;
     }
-    .mobile-menu ul li a{
+
+    .mobile-menu ul li a {
         text-decoration: none;
         font-size: 20px;
         line-height: 45px;
         color: white;
-       
-            font-family: "Roboto", sans-serif;
-            font-weight: 700;
-            font-style: normal;
-         
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
     }
+
     .mobile-menu ul {
         list-style-type: none;
         transform: translateX(-320px);
         margin-top: 20px;
     }
-    /* #mobileMenu {
-        position: sticky;
-        top: 0;
-        background: orangered;
-    } */
+
     #mobileMenu {
         position: sticky;
         top: 0;
         background: orangered !important;
-        padding: 20px; /* Adds padding for height */
-        height: auto; /* Ensures it adapts to the content's height */
+        padding: 20px;
+        height: auto;
     }
-    
+
     #mobileMenu .mobOne img {
         width: 118%;
     }

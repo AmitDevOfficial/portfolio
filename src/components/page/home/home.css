@@ -167,7 +167,7 @@ h1,h2,h3{
     body{
         overflow-x: hidden;
     }
-  
+    
     #hey {
         font-size: 62px!important;
         line-height: 100px;
@@ -223,8 +223,8 @@ h1,h2,h3{
     .satisOne {
         height: 100%;
         width: 100%;
-        transform: translateY(5%);
     }
+    
     .satisOne h1 {
         text-align: center;
     }
