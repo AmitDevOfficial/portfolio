@@ -101,3 +101,35 @@ textarea {
 .iconSection {
     margin-top: 20px;
 }
+@media (max-width: 575px) {
+    #contact {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .conTwo img {
+        width: 100%;
+        /* float: right; */
+    }
+    .conTwo {
+        width: 100%;
+    }
+    .fieldTwo {
+        margin-left: 0px;
+    }
+    #conUs {
+        margin-top: 20px;
+        width: 304%;
+    }
+    #conUs button {
+        width: 66%;
+    }
+    .conSec {
+        margin-top: 53px;
+        margin-bottom: 94px;
+    }
+    .conSec {
+        margin-top: 53px;
+        margin-bottom: 94px;
+        width: 150%;
+    }
+}
