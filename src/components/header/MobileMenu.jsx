@@ -20,7 +20,7 @@ const MobileMenu = () => {
             <div className="mobTwo">
                 
                 <button className="menu-toggle" onClick={toggleMenu}>
-                <AlignHorizontalLeftIcon />
+                <AlignHorizontalLeftIcon fontSize="large" sx={{ color: 'white', marginTop: '-19px' }} />
                 </button>
 
                 {menuOpen && (
