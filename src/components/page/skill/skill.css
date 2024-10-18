@@ -246,3 +246,54 @@ p{
 .mainSkill{
     margin-top: 20px;
 }
+@media (max-width: 575px) {
+    .tech h3 {
+        text-align: center;
+    }
+    .skillContainer {
+        padding: 6px 0px 0px 20px;
+    }
+    .tech span {
+        font-size: 18px;
+    }
+    .techskill hr {
+        width: 14%;
+    }
+    .tech img {
+        width: 50px;
+        transform: translateY(17px);
+    }
+    .html {
+        padding: 10px 39px;
+    }
+    .css {
+        padding: 10px 47px;
+    }
+    .react {
+        padding: 10px 26px;
+    }
+    .node {
+        padding: 10px 30px;
+    }
+    .mui {
+        padding: 10px 14px;
+    }
+    .php {
+        padding: 10px 50px;
+    }
+    .wdp {
+        padding: 10px 16px;
+    }
+    .lineRotate {
+        width: 20% !important;
+        transform: rotate(90deg);
+        float: right;
+        margin: 25px 15px 2px 9px;
+        border-top: dotted;
+        color: var(--heading);
+        border-bottom: none;
+    }
+    .techskill .progress {
+        padding: 13px 11px 8px 10px;
+    }
+}
