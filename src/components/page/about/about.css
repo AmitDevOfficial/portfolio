@@ -72,3 +72,20 @@ h3{
 .prohead{
     margin-bottom: 50px;
 }
+
+@media (max-width: 575px) {
+
+    .mainAbout {
+        margin-top: 50px;
+        display: block;
+        flex-direction: column-reverse;
+    }
+    .mainAbout img {
+        width: 358px;
+        margin: 0;
+    }
+    .aboutTwo {
+        margin-top: 30px;
+        width: 100%;
+    }
+}
