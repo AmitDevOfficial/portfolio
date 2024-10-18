@@ -257,7 +257,7 @@ p{
         font-size: 18px;
     }
     .techskill hr {
-        border-top: 6px dotted;
+        border-top: 3px dotted;
         width: 14%;
     }
     .tech img {
@@ -290,7 +290,7 @@ p{
         transform: rotate(90deg);
         float: right;
         margin: 25px 15px 2px 9px;
-        border-top: 6px dotted;
+        border-top: 3px dotted;
         color: var(--heading);
         border-bottom: none;
     }
