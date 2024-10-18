@@ -6,6 +6,7 @@
     display: none;
 }
 
+
 @media (max-width: 575px) {
     #mobileMenu {
         display: flex;
@@ -34,8 +35,15 @@
         background: orangered !important;
         padding: 20px;
         height: auto;
-    }
-
+        z-index: 1;
+    } 
+    /* #mobileMenu {
+        display: block;
+        position: sticky;
+        top: 0px;
+        background-color: orangered;
+        z-index: 1;
+    } */
     #mobileMenu .mobOne img {
         width: 118%;
     }
