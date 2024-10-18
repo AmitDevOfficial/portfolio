@@ -123,6 +123,9 @@ textarea {
     #conUs button {
         width: 66%;
     }
+    .conOne h1{
+        width: max-content;
+    }
     .conSec {
         margin-top: 53px;
         margin-bottom: 94px;
@@ -130,6 +133,6 @@ textarea {
     .conSec {
         margin-top: 53px;
         margin-bottom: 94px;
-        width: 150%;
+        width: 160%;
     }
 }
