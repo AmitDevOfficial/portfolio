@@ -19,7 +19,7 @@ const MobileMenu = () => {
     return (
         <div id="mobileMenu" className="mobile-menu">
             <div className="mobOne">
-                <Link to="/"><img src={logo} alt="Logo" /></Link>
+                <Link to="/" onClick={closeMenu}><img src={logo} alt="Logo" /></Link>
             </div>
 
             <div className="mobTwo">
