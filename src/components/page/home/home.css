@@ -247,4 +247,40 @@ h1,h2,h3{
         width: 95% !important;
         /* float: right; */
     }
+    .process img {
+        width: 19%;
+    }
+    .processOne img {
+        width: 15%;
+    }
+    .process hr {
+        display: inline-block;
+        width: 16%;
+        border-top: 4px dashed #d6421c;
+        border-bottom: none;
+        border-right: none;
+        margin-bottom: 31px;
+    }
+    .processOne hr {
+        display: inline-block;
+        width: 9.5%;
+        border-top: 4px dashed #d6421c;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        margin-bottom: 23px;
+    }
+
+    .verHr {
+        width: 19%;
+        border-top: 4px dashed #d6421c;
+        margin-top: 40px;
+        margin-right: 17px;
+    }
+    .verHr2 {
+        width: 20%;
+        border-top: 4px dashed #d6421c;
+        margin-top: 40px;
+        margin-left: 13px;
+    }
 }
