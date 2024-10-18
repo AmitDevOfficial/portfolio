@@ -38,6 +38,12 @@ h3{
     line-height: 25px;
     float: right;
 }
+.eduInfoSec ul li{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+}
 
 .eduInfo{
     display: flex;
@@ -71,6 +77,9 @@ h3{
 }
 .prohead{
     margin-bottom: 50px;
+}
+.secondli{
+    list-style-type: none;
 }
 
 @media (max-width: 575px) {
