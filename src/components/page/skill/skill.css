@@ -257,6 +257,7 @@ p{
         font-size: 18px;
     }
     .techskill hr {
+        border-top: 6px dotted;
         width: 14%;
     }
     .tech img {
@@ -279,17 +280,17 @@ p{
         padding: 10px 14px;
     }
     .php {
-        padding: 10px 50px;
+        padding: 10px 47px;
     }
     .wdp {
-        padding: 10px 16px;
+        padding: 10px 13px;
     }
     .lineRotate {
         width: 20% !important;
         transform: rotate(90deg);
         float: right;
         margin: 25px 15px 2px 9px;
-        border-top: dotted;
+        border-top: 6px dotted;
         color: var(--heading);
         border-bottom: none;
     }
