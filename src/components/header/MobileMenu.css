@@ -31,7 +31,7 @@
     
     #mobileMenu {
         display: flex;
-        position: sticky;
+        position: sticky !important;
         top: 0;
         background: orangered !important;
         padding: 20px;
