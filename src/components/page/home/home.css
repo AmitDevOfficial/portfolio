@@ -167,9 +167,9 @@ h1,h2,h3{
 }
 
 @media (max-width: 575px) {
-    body{
+    html, body {
         overflow-x: hidden;
-    }
+      }
     
     #hey {
         font-size: 62px!important;
